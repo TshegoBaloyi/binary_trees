@@ -32,7 +32,6 @@ bst_t *bst_remove(bst_t *root, int value)
 {
 	return (bst_remove_recursive(root, root, value));
 }
-                                             
 
 /**
  * bst_delete - Deletes a node from a binary search tree.
